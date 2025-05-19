@@ -1,2 +1,2 @@
-# Lin-portfolio
-A portfolio website for potential recruiters to see
+# Lin-Portfolio
+My portfolio of coding projects
