@@ -44,3 +44,65 @@ footer{
 .about{
     padding: 20px;
 }
+
+.social-links{
+    margin-top: 10px;
+}
+
+.social-links > a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+.social-links > a:hover {
+    text-decoration: underline;
+    font-size: 40px;
+    color: hotpink;
+}
+
+/* Project list */
+.project-list {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    border-left: 4px solid lightblue;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 1);
+    transition: transform 0.2s;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+}
+
+.project-card > h3{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.project-card > p{
+    font-size: 15px;
+}
+
+.project-card > a{
+    display: inline-block;
+    padding: 8px 15px;
+    color: lightskyblue;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.project-card > a:hover{ 
+    background-color: hotpink;
+}
