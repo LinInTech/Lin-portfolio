@@ -1,1 +1,2 @@
-# Lin-portfolio
+# Lin-Portfolio
+My portfolio of coding projects
